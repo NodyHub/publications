@@ -4,6 +4,10 @@ Jan Harrie
 
 ## Abstract
 
+OpenShift by Red Hat is one of the major Platform as a Service (PaaS) solutions on the market. It is used to automatically deploy Kubernetes clusters and provides useful extensions for cluster management mixed with some magic under the hood. 
+Instantiating a Kubernetes cluster is often a crucial step in setting up a modern application stack. But be aware – a lot of configuration parameters are awaiting you. And here several misconfigurations may occur that can lead up to a compromise of the cluster. Privileged containers, tainting of masters and executing workloads on them, missing role-based access controls, and misconfigured Service Accounts are part of the problem. 
+In this talk, I will explain which configuration parameters of an OpenShift environment are critical to ensure the overall security of the deployed Kubernetes clusters. Implications of misconfigurations will be demonstrated during live demos. Finally, recommendations for a secure configuration are provided.
+
 
 ## Media
 
